@@ -26,12 +26,6 @@ import {VRFConsumerBaseV2Plus} from "../lib/chainlink/contracts/src/v0.8/vrf/dev
 import {VRFV2PlusClient} from "../lib/chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
 import {AutomationCompatibleInterface} from "../lib/chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol";
 
-/**
- * @title Raffle
- * @author Abhivansh Saini
- * @notice Defines the working of a lottery system
- */
-
 contract Raffle is VRFConsumerBaseV2Plus {
 
     error sendMoreEthtoEnterRaffle();

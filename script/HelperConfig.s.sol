@@ -8,7 +8,6 @@ import {VRFCoordinatorV2_5Mock} from "../lib/chainlink/contracts/src/v0.8/vrf/mo
 abstract contract CodeConstants {
     uint96 public MOCK_BASE_FEE = 0.25 ether;
     uint96 public MOCK_GAS_PRICE_LINK = 1e9;
-    // LINK / ETH price
     int256 public MOCK_WEI_PER_UINT_LINK = 4e15;
 
     address public FOUNDRY_DEFAULT_SENDER = 0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38;
